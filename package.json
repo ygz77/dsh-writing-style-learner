@@ -1,0 +1,42 @@
+{
+  "name": "dsh-writing-style-learner",
+  "version": "1.0.0",
+  "description": "Learn any writing sample's style into a durable profile and inject it into every model step, so generated writing stays consistent across long chats and new sessions.",
+  "type": "module",
+  "license": "MIT",
+  "author": "YOUR NAME <you@example.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_ACCOUNT/dsh-writing-style-learner"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "writing-style",
+    "style",
+    "prompt",
+    "agent"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.5"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

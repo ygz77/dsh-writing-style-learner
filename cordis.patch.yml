@@ -1,0 +1,4 @@
+- insert:
+    - id: writing-style-learner
+      name: '@local/writing-style-learner'
+      config: {}

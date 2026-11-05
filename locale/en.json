@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Writing Style Learner",
+    "description": "Learns a document's writing style (text, figures, numbering, tables, formatting) into a durable profile that is injected into every step, so writing stays consistent even across long contexts."
+  }
+}
