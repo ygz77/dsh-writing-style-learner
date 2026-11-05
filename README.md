@@ -11,7 +11,7 @@
 <p align="center">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square"></a>
   <a href="https://www.npmjs.com/package/dsh-writing-style-learner"><img alt="npm" src="https://img.shields.io/npm/v/dsh-writing-style-learner.svg?style=flat-square"></a>
-  <a href="https://github.com/YOUR_ACCOUNT/dsh-writing-style-learner"><img alt="GitHub" src="https://img.shields.io/github/stars/YOUR_ACCOUNT/dsh-writing-style-learner.svg?style=flat-square"></a>
+  <a href="https://github.com/ygz77/dsh-writing-style-learner"><img alt="GitHub" src="https://img.shields.io/github/stars/ygz77/dsh-writing-style-learner.svg?style=flat-square"></a>
 </p>
 
 ---
@@ -40,7 +40,7 @@
 - **GitHub 源码**：
 
   ```sh
-  dsh plugin --profile <profile> add github:YOUR_ACCOUNT/dsh-writing-style-learner
+  dsh plugin --profile <profile> add github:ygz77/dsh-writing-style-learner
   ```
 
 需要 DSH `>= 0.2.1-rc.5`（`engines.dsh`）。
